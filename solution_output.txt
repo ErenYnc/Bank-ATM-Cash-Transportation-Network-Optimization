@@ -1,0 +1,21 @@
+BANK ATM NETWORK OPTIMIZATION - RESULTS
+============================================================
+Model:     Shortest Route / Shortest Path Problem
+Algorithm: Dijkstra's Algorithm
+Criterion: Minimum Transportation Cost (TL/trip)
+
+           ATM                                            Route  Total Cost (TL)  Total Distance (km)
+    Maslak ATM     General_Vault -> Levent_Center -> ATM_Maslak              165                   20
+     Sisli ATM      General_Vault -> Levent_Center -> ATM_Sisli              170                   18
+ Kagithane ATM  General_Vault -> Levent_Center -> ATM_Kagithane              175                   21
+  Besiktas ATM   General_Vault -> Levent_Center -> ATM_Besiktas              180                   19
+   Uskudar ATM  General_Vault -> Umraniye_Center -> ATM_Uskudar              195                   27
+Bayrampasa ATM General_Vault -> Levent_Center -> ATM_Bayrampasa              200                   25
+   Kadikoy ATM  General_Vault -> Umraniye_Center -> ATM_Kadikoy              205                   30
+   Maltepe ATM  General_Vault -> Umraniye_Center -> ATM_Maltepe              230                   36
+
+Interpretation:
+The lowest-cost route from the General Vault to each ATM
+has been computed individually using Dijkstra's algorithm.
+Regional Cash Centers act as intermediate hubs and provide
+significant cost savings compared to direct routes.
